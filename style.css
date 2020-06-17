@@ -1,0 +1,274 @@
+body {
+    font: 15px/1.5 Arial,Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #fff;
+    color: #808080;
+    padding-top: 30px;
+    min-height: 70px;
+    
+}
+
+header a{
+    color: #808080;
+    text-decoration: none;
+   
+    font-size: 24px;
+}
+
+header li {
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+
+}
+header #company_logo {
+     float: left;
+
+}
+header #company_logo img {
+    margin: 0;
+    width: 90px ;
+    height: 90px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a  {
+    color: blue;
+    font-weight: bold;
+} 
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height : 400px;
+height: 650px;
+background-image: url(group-photo-of-a-children-2883380.jpg);
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 255, .7);
+}
+
+#showcase .join-us h1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700px;
+    color: #447490;
+    text-transform: uppercase;
+}
+
+#showcase .join-us h2 {
+    font-size: 32px;
+    color: #555555;
+    font-style: italic;
+}
+
+#showcase .join-us p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#showcase .what-we-do h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #555555;
+}
+
+footer {
+    background-color: #fff;
+    padding: 30px;
+}
+footer nav{
+    float: right;
+    margin-top: 10px;
+}
+footer li {
+    float:left;
+    display:inline;
+    padding: 0 10px 0 10px;
+
+}
+footer a{
+    color: #808080;
+    text-decoration: none;
+   
+    font-size: 14px;
+}
+
+/*Contact */
+
+#main{
+
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+#main h1{
+    font-size: 38px;
+
+}
+#main p{
+    font-size: 14px;
+}
+
+#main a {
+    color:blue;
+    text-decoration: none;
+   
+    font-size: 14px;
+
+}
+
+#first-contact {
+    color: #666666;
+    margin-top: 10px;
+    padding: 10px;
+    padding: 60px;
+}
+
+#sub-main {
+    text-align: right;
+    color: #AAAAAA;
+   background-color: #333333;
+   padding: 70px;
+   
+}
+
+    
+
+#sub-main h1 {
+    font-size: 22px;
+    color: #dddddd;
+  
+}
+#sub-main p {
+    font-size: 12px;
+}
+
+/*About*/
+#main-about{
+
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+#main-about h1{
+    font-size: 38px;
+
+}
+#main-about p{
+    font-size: 14px;
+}
+
+#main-about a {
+    color:blue;
+    text-decoration: none;
+   
+    font-size: 14px;
+
+}
+
+#about-sub-main{
+    padding: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about-sub-main h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #555555;
+    font-weight: 700;
+}
+#about-sub-main p{
+    font-size: 26px;
+    color: #555555 ;
+}
+#about-sub-main ul {
+    font-size: 20px;
+    color: #555555 ;
+    line-height: 28px;
+}
+
+#about-last {
+
+}
+#about-last h1 {
+    text-align: center;
+    color: #1b98e0;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+#about-last h1:hover {
+    color: #477490;
+    font-size: 36px;
+}
+#about-last p{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+#about-last h4 {
+    text-align: center;
+    color: #1b98e0 ;
+    font-size: 14;
+
+}
+#about-last h4:hover{
+    color: #447490;
+}
+#about-last h3 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+}
+#team {
+    font-size: 24px;
+    font-weight: 700px;
+    color: #555555;
+    text-align: center;
+}
+
+
+.team-about h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #666666;
+}
