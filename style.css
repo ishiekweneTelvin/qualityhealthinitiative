@@ -33,7 +33,7 @@ header a{
 header li {
     float: left;
     display:inline;
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 20px;
 
 }
 header #company_logo {
@@ -42,8 +42,8 @@ header #company_logo {
 }
 header #company_logo img {
     margin: 0;
-    width: 90px ;
-    height: 90px;
+    width: 120px ;
+    height: 120px;
 }
 
 header nav{
@@ -52,7 +52,7 @@ header nav{
 }
 
 header .highlight, header .current a  {
-    color: blue;
+    color: red;
     font-weight: bold;
 } 
 
@@ -64,12 +64,14 @@ header a:hover {
 /* Showcase */
 
 #showcase {
-    min-height : 400px;
-height: 650px;
+  min-height: 400px;
+  height: 100vh;
+
 background-image: url(group-photo-of-a-children-2883380.jpg);
 background-size: cover;
 position: relative;
 overflow: hidden;
+color: #747171;
 }
 
 .overlay{
@@ -78,20 +80,20 @@ overflow: hidden;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 255, .7);
+    background: rgba(71, 4, 4, 0.849);
 }
 
 #showcase .join-us h1{
     text-align: center;
     font-size: 22px;
     font-weight: 700px;
-    color: #447490;
+    color: red;
     text-transform: uppercase;
 }
 
 #showcase .join-us h2 {
     font-size: 32px;
-    color: #555555;
+    color: #747171;
     font-style: italic;
 }
 
@@ -104,7 +106,11 @@ overflow: hidden;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    color: #555555;
+    color: #747171;
+}
+.movement {
+    color: red;
+    text-align: center;
 }
 
 footer {
@@ -146,7 +152,7 @@ footer a{
 }
 
 #main a {
-    color:blue;
+    color:red;
     text-decoration: none;
    
     font-size: 14px;
@@ -196,7 +202,7 @@ footer a{
 }
 
 #main-about a {
-    color:blue;
+    color:red;
     text-decoration: none;
    
     font-size: 14px;
@@ -235,7 +241,7 @@ footer a{
     text-transform: uppercase;
 }
 #about-last h1:hover {
-    color: #477490;
+    color: red;
     font-size: 36px;
 }
 #about-last p{
@@ -271,4 +277,20 @@ footer a{
     font-weight: 700;
     line-height: 24px;
     color: #666666;
+}
+
+@media(max-width: 768px){
+    header #company_logo,
+    header nav,
+    header nav li {
+        text-align: center;
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+
+    #showcase{
+       min-height: 1800px ;
+    }
 }
