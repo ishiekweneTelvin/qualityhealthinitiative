@@ -42,8 +42,8 @@ header #company_logo {
 }
 header #company_logo img {
     margin: 0;
-    width: 120px ;
-    height: 120px;
+    width: 140px ;
+    height: 140px;
 }
 
 header nav{
@@ -64,7 +64,7 @@ header a:hover {
 /* Showcase */
 
 #showcase {
-  min-height: 400px;
+  min-height: 750px;
   height: 100vh;
 
 background-image: url(group-photo-of-a-children-2883380.jpg);
@@ -89,6 +89,7 @@ color: #747171;
     font-weight: 700px;
     color: red;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 #showcase .join-us h2 {
@@ -98,9 +99,10 @@ color: #747171;
 }
 
 #showcase .join-us p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
+
 
 #showcase .what-we-do h2{
     text-align: center;
@@ -185,6 +187,7 @@ footer a{
     font-size: 12px;
 }
 
+
 /*About*/
 #main-about{
 
@@ -210,7 +213,8 @@ footer a{
 }
 
 #about-sub-main{
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -228,6 +232,19 @@ footer a{
     font-size: 20px;
     color: #555555 ;
     line-height: 28px;
+}
+#motto h1{
+    
+        text-align: center;
+        font-size: 26px;
+        color: #555555;
+        font-weight: 700;
+    
+}
+#motto q, p{
+    font-size: 26px;
+    color: #555555 ;
+
 }
 
 #about-last {
@@ -278,6 +295,10 @@ footer a{
     line-height: 24px;
     color: #666666;
 }
+.about-team img{
+    height: 300px;
+    width: 300px;
+}
 
 @media(max-width: 768px){
     header #company_logo,
@@ -287,10 +308,42 @@ footer a{
         float: none;
         width: 100%;
         margin-bottom: 10px;
-        font-size: 9px;
+        font-size: 9          px;
     }
 
     #showcase{
        min-height: 1800px ;
     }
+}
+
+.current-header {
+    color: red;
+}
+#payment{
+    padding: 30px;
+}
+#gofund{
+    padding: 20px;
+
+}
+#gofund a{
+    text-decoration: none;
+    color: green;
+    font-size: 24px;
+   
+}
+.gofund {
+    color: grey;
+    font-size: 16px;
+}
+#paypal {
+    text-decoration: none;
+  
+    font-size: 24px;
+    padding: 20px;
+
+}
+
+.paypal {
+    color: #3b7bbf;
 }
